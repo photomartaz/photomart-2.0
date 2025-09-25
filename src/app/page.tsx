@@ -1,10 +1,8 @@
-import UploadImage from "@/components/UploadImage";
-
+// src/app/page.tsx
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-2xl font-bold mb-6">Cloudinary Test</h1>
-      <UploadImage />
-    </main>
+    <div className="flex items-center justify-center min-h-screen">
+      <h1 className="text-3xl font-bold text-green-400">Photomart 2.0</h1>
+    </div>
   );
 }
