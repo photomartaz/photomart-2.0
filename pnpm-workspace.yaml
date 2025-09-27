@@ -1,8 +1,12 @@
+packages:
+  - apps/*
+  - packages/*
+
 onlyBuiltDependencies:
-  - '@prisma/client'
-  - '@prisma/engines'
-  - '@sentry/cli'
-  - '@tailwindcss/oxide'
+  - "@prisma/client"
+  - "@prisma/engines"
+  - "@sentry/cli"
+  - "@tailwindcss/oxide"
   - esbuild
   - prisma
   - sharp
